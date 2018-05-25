@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    font-family: 'Noto Sans TC';
+}
+
+.btn {
+    border-width: 2px;
+}
+
+.form-control {
+    border-width: 2px;
+}
+
+.header-carousel-item {
+    height: 450px;
+}
+
+.header-carousel-item2 {
+    height: 300px;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.carousel-caption2 {
+    background-color: rgba(0, 0, 0, .0);
+}
+
+@media (min-width: 768px) {
+    .text-md-dark {
+        color: #333;
+    }
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.mt-gutter-s {
+    /* 自定義gutter寬度 */
+    margin-top: 10px;
+}
+
+.card-border {
+    border: 3px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-border:hover {
+    border: 3px solid rgba(32, 23, 43, 0.9);
+    transition: card-border .3s;
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>艾巴西餐廳0112</title>
+</head>
+
+<body>
+    <div class="bg-secondary py-1 d-none d-md-block">
+        <div class="container text-right">
+            <a href="#" class="text-white mr-1">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="text-white">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-3.svg" width="90px" alt="艾巴西餐廳">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">首頁
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">最新消息</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="list_meals.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            美味菜單
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="meals_1.html">蔬果口味</a>
+                            <a class="dropdown-item" href="meals_2.html">無肉不歡</a>
+                            <a class="dropdown-item" href="meals_3.html">調味醬</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- login-register -->
+                <form class="form-inline d-none d-md-block">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <a href="#" class="btn btn-outline-primary mr-1" data-toggle="modal" data-target="#loginModal">登入</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#registerModal">註冊</a>
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <!-- meals-title -->
+    <div class="card bg-cover m-1 d-none d-md-block">
+        <div class="card-body text-center">
+            <h2 class="card-title h1">無肉不歡</h2>
+            <small class="card-text text-secondary">2017/10/6後增加的新菜色共35種點心詳細介紹</small>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form-row">
+            <div class="col-lg-8">
+                <!-- card-1 -->
+                <div class="form-row">
+                    <div class="col-md">
+                        <div class="card bg-cover text-white mt-gutter-s card-border" style="background-image: url(./images/meals/food-b1.jpg)">
+                            <div class="card-body d-none d-md-block">
+                                <h4 class="card-title">人氣金元寶</h4>
+                                <p class="card-text">栩栩如生 超逼真超可愛 ^.* 包包本身細緻柔軟 芝麻流沙濃郁香醇</p>
+                            </div>
+                            <div class="card-footer py-5">
+                                <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-cover text-white mt-gutter-s card-border" style="background-image: url(./images/meals/food-b2.jpg)">
+                            <div class="card-body d-none d-md-block">
+                                <!-- card-2 -->
+                                <h4 class="card-title">薯仔酥皮濃湯</h4>
+                                <p class="card-text">入口即化的紅蘿蔔和馬鈴薯 搭配甜甜的大玉米以及排骨 絕對喝得開心又吃得滿意哩</p>
+                            </div>
+                            <div class="card-footer py-5">
+                                <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="card bg-cover text-white mt-gutter-s card-border" style="background-image: url(./images/meals/food-b3.jpg)">
+                    <div class="card-body d-none d-md-block">
+                        <h4 class="card-title">頂級起司濃派</h4>
+                        <p class="card-text">社團聚餐必備，必省Q派對餐：5個必省Q+4份熱烤類+可樂3瓶只要$188</p>
+                    </div>
+                    <div class="card-footer py-5">
+                        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 mt-gutter-s">
+                <!-- card-3 -->
+                <div class="card bg-cover text-white h-100 card-border" style="background-image: url(./images/meals/food-b4.jpg)">
+                    <div class="card-body d-none d-md-block">
+                        <h4 class="card-title">冠軍君頭饅</h4>
+                        <p class="card-text">內餡是滿滿真材實料的新鮮鳳梨 吃起來酸酸甜甜 , 很涮嘴的點心</p>
+                    </div>
+                    <div class="card-footer py-5">
+                        <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row"> <!-- 其他餐點 -->
+                <div class="col-md-3 mt-gutter-s">
+                    <div class="card bg-cover text-white card-border" style="background-image: url(./images/meals/food-b5.jpg)">
+                        <div class="card-body d-none d-md-block">
+                            <h4 class="card-title">新鮮海味直送</h4>
+                            <p class="card-text text-truncate">內餡是滿滿真材實料的新鮮鳳梨 吃起來酸酸甜甜 , 很涮嘴的點心</p>
+                        </div>
+                        <div class="card-footer py-5">
+                            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-gutter-s">
+                    <div class="card bg-cover text-white card-border" style="background-image: url(./images/meals/food-b6.jpg)">
+                        <div class="card-body d-none d-md-block">
+                            <h4 class="card-title">紐奧良雞排</h4>
+                            <p class="card-text text-truncate">內餡是滿滿真材實料的新鮮鳳梨 吃起來酸酸甜甜 , 很涮嘴的點心</p>
+                        </div>
+                        <div class="card-footer py-5">
+                            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-gutter-s">
+                    <div class="card bg-cover text-white card-border" style="background-image: url(./images/meals/food-b7.jpg)">
+                        <div class="card-body d-none d-md-block">
+                            <h4 class="card-title">英式茶品</h4>
+                            <p class="card-text text-truncate">內餡是滿滿真材實料的新鮮鳳梨 吃起來酸酸甜甜 , 很涮嘴的點心</p>
+                        </div>
+                        <div class="card-footer py-5">
+                            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-gutter-s">
+                    <div class="card bg-cover text-white card-border" style="background-image: url(./images/meals/food-b8.jpg)">
+                        <div class="card-body d-none d-md-block">
+                            <h4 class="card-title">幸福點點心</h4>
+                            <p class="card-text text-truncate">內餡是滿滿真材實料的新鮮鳳梨 吃起來酸酸甜甜 , 很涮嘴的點心</p>
+                        </div>
+                        <div class="card-footer py-5">
+                            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="mt-3">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- footer -->
+        <footer class="p-5 bg-light text-dark">
+            <div class="row d-flex justify-content-md-center">
+                <div class="col-ms-12 mr-auto px-4">
+                    © Copright 2017 艾巴美食餐坊
+                </div>
+                <div class="col-ms-12">
+                    <ul class="list-inline px-5">
+                        <li class="list-inline-item">
+                            <a href="#">GitHub</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- login-Modal -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <h5 class="modal-title" id="exampleModalLabel">登入</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">請輸入信箱</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">密碼</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <small>
+                                    <label class="form-check-label text-secondary" for="exampleCheck1">Check me out</label>
+                                </small>
+                            </div>
+                            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="mr-auto" href="#" data-dismiss="modal" data-toggle="modal" data-target="#registerModal">切換到註冊</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                        <button type="submit" class="btn btn-primary">確定輸出</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- register-Modal -->
+        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-warning text-white">
+                        <h5 class="modal-title" id="exampleModalLabel">註冊</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row px-3">
+                            <div class="col-6">
+                                <h3>註冊艾巴西餐廳</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam labore nemo dolore voluptatum
+                                    eaque ratione ducimus, repellat magni maiores voluptas delectus saepe officiis sunt aliquid autem
+                                    nisi dolorum doloremque.</p>
+                            </div>
+                            <div class="col-6">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">請輸入您的信箱</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">密碼</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <small>
+                                            <label class="form-check-label text-secondary" for="exampleCheck1">同意使用條款</label>
+                                        </small>
+                                    </div>
+                                    <!-- <button type="submit" class="btn btn-primary">確定送出</button> -->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="mr-auto" href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">已經有帳號了...</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                        <button type="submit" class="btn btn-primary">註冊</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- editModal -->
+        <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary text-white">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form action="" class="form-group needs-validation" novalidate>
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label pr-0" for="inputUser">用戶名稱</label>
+                                    <div class="col-sm">
+                                        <input type="text" class="form-control" id="inputUsername" placeholder="username" required>
+                                        <div class="valid-feedback">
+                                            請再次確認名稱是否正確
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            請輸入用戶名稱
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm col-form-label pr-0" for="inputEmail">信箱</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                                        <div class="valid-feedback">請再次確認信箱無誤 </div>
+                                        <div class="invalid-feedback">
+                                            請輸入用戶信箱
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputCity">品項</label>
+                                        <div class="alert alert-secondary py-1" role="alert">
+                                            超纖細肥皂 1盒
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputState">數量:</label>
+                                        <select type="number" class="form-control" id="exampleFormControlSelect1" placeholder="number">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                                    <button type="submit" class="btn btn-primary">確定送出</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- removeModal -->
+        <div class="modal fade" id="removeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger text-white">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                        <button type="submit" class="btn btn-outline-danger">確認刪除</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // tooltip 提示元件
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+
+            // 編輯 modal 事件
+            $('#editModal').on('show.bs.modal', function (event) {
+                var btn = $(event.relatedTarget);
+                var title = btn.data('title');
+                var modal = $(this);
+                modal.find('.modal-title').text(title);
+            });
+
+            $('#removeModal').on('show.bs.modal', function (event) {
+                var btn = $(event.relatedTarget);
+                var title = btn.data('title');
+                var modal = $(this);
+                modal.find('.modal-title').text('確認刪除' + title);
+            });
+
+            $('#inputTitle').on('show.bs.modal', function (event) {
+                var btn = $(event.relatedTarget);
+                var title = btn.data('title');
+                var modal = $(this);
+                modal.find('.modal-title').text(placeholder);
+            })
+        });
+    </script>
+
+</body>
+
+</html>
